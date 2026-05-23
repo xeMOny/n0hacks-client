@@ -1,0 +1,24 @@
+# Allow all bots to crawl n0hacks.com
+User-agent: *
+Allow: /
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow admin and internal paths if any
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://n0hacks.com/sitemap.xml
+
+# Crawl delay (reasonable for small sites)
+Crawl-delay: 1
+

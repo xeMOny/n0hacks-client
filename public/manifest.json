@@ -1,0 +1,48 @@
+{
+  "name": "n0hacks | Offensive Security & Red Team",
+  "short_name": "n0hacks",
+  "description": "Elite offensive cybersecurity team specializing in red teaming, pentesting, and ethical hacking for startups, fintech, and enterprises.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "categories": ["business", "security"],
+  "screenshots": [
+    {
+      "src": "/og/n0hacks-og.jpg",
+      "type": "image/jpeg",
+      "sizes": "1200x630",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contact us",
+      "short_name": "Contact",
+      "description": "Get in touch with the n0hacks team",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
