@@ -28,6 +28,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Verify Snyk token
+        run: |
+          if [ -z "$SNYK_TOKEN" ]; then
+            echo "SNYK_TOKEN is missing";
+            exit 1;
+          fi
+          echo "SNYK_TOKEN is set"
+
+      - name: Authenticate Snyk CLI
+        run: |
+          echo "$SNYK_TOKEN" | npx snyk auth
+
       - name: Run Snyk security test
         run: npm run security:check
 
