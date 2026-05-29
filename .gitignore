@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 *.jpeg.temp.*
+/public/og/*.webp
+/public/og/*.avif
+/public/portfolio-n0hacks/*.webp
+/public/portfolio-n0hacks/*.avif
 
 # debug
 npm-debug.log*
